@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "resource:/schemas/event_call#",
+    "type": "object",
+    "title": "Timeline Schema",
+    "required":[
+        "function_name",
+        "args"
+    ],
+    "properties": {
+        "function_name": {
+            "type": "string",
+            "minLength": 1
+        },
+        "args": {
+            "type": "array"
+        }
+    }
+}

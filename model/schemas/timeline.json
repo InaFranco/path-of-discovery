@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "resource:/schemas/timeline#",
+    "type": "object",
+    "title": "Timeline Schema",
+    "additionalProperties": {
+        "type": "array",
+        "items": {
+            "$ref": "event_call.json"
+        }
+    }
+}
